@@ -1,0 +1,73 @@
+cff-version: 1.2.0
+title: korallen-dhw-sandbox
+message: If you use this sandbox, please cite it and the underlying papers.
+type: software
+authors:
+  - family-names: Römer
+    given-names: Johann
+    affiliation: "MOR Research Collective"
+repository-code: https://github.com/GenesisAeon/korallen-dhw-sandbox
+url: https://github.com/GenesisAeon/korallen-dhw-sandbox
+license: MIT
+abstract: >
+  Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching
+  sandbox using published constants from coral-reef-utac (P114): DHW
+  0–20 °C-weeks with five alert levels, four global bleaching events
+  (21% → 37% → 68% → 83.7%), Hughes 2018 6-year return interval, GCRMN
+  2025 5–6 year recovery window, Guillermic 2021 heat/acidification
+  synergy, Walker 2023 genotype honesty check. No UTAC/CREP/AFET bridge
+  and no invented Gamma value.
+keywords:
+  - GenesisAeon
+  - P114
+  - coral-reef
+  - bleaching
+  - DHW
+  - NOAA
+  - open-science
+references:
+  - type: article
+    title: Global warming and recurrent mass bleaching of corals
+    authors:
+      - name: "Hughes, T.P."
+    year: 2017
+    journal: Nature
+    volume: 543
+    start: 373
+    doi: "10.1038/nature21707"
+  - type: article
+    title: Spatial and temporal patterns of mass bleaching of corals in the Anthropocene
+    authors:
+      - name: "Hughes, T.P."
+    year: 2018
+    journal: Science
+    volume: 359
+    issue: 6371
+    start: 80
+    doi: "10.1126/science.aan8048"
+  - type: article
+    title: Thermal stress reduces pocilloporid coral resilience to ocean acidification by impairing control over calcifying fluid chemistry
+    authors:
+      - name: "Guillermic, M."
+    year: 2021
+    journal: Science Advances
+    volume: 7
+    issue: 2
+    doi: "10.1126/sciadv.aba9958"
+  - type: article
+    title: Coral bleaching resistance variation is linked to differential mortality and skeletal growth during recovery
+    authors:
+      - name: "Walker, N.S."
+    year: 2023
+    journal: Evolutionary Applications
+    volume: 16
+    issue: 3
+    start: 755
+    doi: "10.1111/eva.13500"
+  - type: report
+    title: "Status of Coral Reefs of the World: 2025"
+    authors:
+      - name: "Global Coral Reef Monitoring Network"
+      - name: "International Coral Reef Initiative"
+    year: 2026
+    doi: "10.59387/LFPR6347"
