@@ -1,6 +1,6 @@
 {
-  "title": "Korallen-DHW-Sandbox — NOAA Degree Heating Week bleaching sandbox",
-  "description": "<p>Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching sandbox, using published constants from GenesisAeon's coral-reef-utac (P114): DHW 0–20 °C-weeks with five alert levels (4/8/12/16/20), four global bleaching events (21% → 37% → 68% → 83.7% of reef area), Hughes et al. 2018 6-year return interval, GCRMN & ICRI Status 2025 5–6 year recovery window (DOI 10.59387/LFPR6347), Guillermic et al. 2021 heat/acidification synergy, and Walker et al. 2023 genotype honesty check. No UTAC/CREP/AFET bridge and no invented Gamma value. Part of the <strong>GenesisAeon</strong> interactive-sandbox series.</p>",
+  "title": "Korallen-DHW-Sandbox — interactive NOAA Degree Heating Week bleaching diagnostic (P114)",
+  "description": "<p>Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching sandbox, ported 1:1 from coral-reef-utac (GenesisAeon P114, v1.2.0): DHW 0-20 C-weeks with five official alert levels, the real escalating series of four documented global bleaching events (21% -&gt; 37% -&gt; 68% -&gt; 83.7%), Hughes et al. 2018's 6-year return interval independently confirmed by GCRMN &amp; ICRI 2025's 5-6 year recovery window, Guillermic et al. 2021's heat-disables-acidification-coping synergy, and Walker et al. 2023's genotype-level honesty check (bleaching resistance is not uniform and carries a real fitness cost). Also includes live WMO monitoring of the current (2026) exceptionally strong El Nino as watch context, explicitly not a claim of a confirmed fifth global bleaching event. No UTAC/CREP/AFET bridge and no invented Gamma value. Part of the <strong>GenesisAeon</strong> interactive-sandbox series.</p>",
   "creators": [
     {
       "name": "Römer, Johann",
@@ -14,10 +14,10 @@
   "keywords": [
     "GenesisAeon",
     "P114",
-    "coral-reef",
+    "coral reef",
     "bleaching",
-    "DHW",
     "NOAA",
+    "Degree Heating Week",
     "interactive sandbox",
     "open-science"
   ],
