@@ -18,7 +18,7 @@ For a plain-language German companion, see [WHITEPAPER.md](WHITEPAPER.md).
   itself was expanded from 2 to 5 levels in December 2023 because 2023's heat
   stress exceeded what the original scale described.
 * **Four global bleaching events** — reef area affected: **21 % (1998) → 37 %
-  (2010) → 68 % (2014–2017) → 83,7 % (2023–2025)** (NOAA / ICRI). Great Barrier
+  (2010) → 68 % (2014–2017) → 84,4 % (2023–2025)** (NOAA / ICRI). Great Barrier
   Reef 2016: 91 % of individual reefs (Hughes et al. 2017, *Nature*).
 * **Hughes et al. (2018, *Science*)** — 100 sites, 1980–2016: median return
   interval between severe bleaching events has fallen to **6 years** — too

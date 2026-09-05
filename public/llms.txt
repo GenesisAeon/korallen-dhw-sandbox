@@ -1,6 +1,6 @@
 # Korallen-DHW-Sandbox
 
-> NOAA Degree Heating Weeks (DHW) Bleaching-Sandbox: 0–20 °C-Wochen, fünf Alarmstufen (4/8/12/16/20), vier dokumentierte globale Bleaching-Ereignisse (21 % → 37 % → 68 % → 83,7 %). Portiert 1:1 aus coral-reef-utac (P114), Stand v1.2.0 (inkl. WMO-2026-El-Niño-Kontext).
+> NOAA Degree Heating Weeks (DHW) Bleaching-Sandbox: 0–20 °C-Wochen, fünf Alarmstufen (4/8/12/16/20), vier dokumentierte globale Bleaching-Ereignisse (21 % → 37 % → 68 % → 84,4 %, Jan 2023–Sep 2025, laut NOAA wahrscheinlich 2025 beendet). Portiert 1:1 aus coral-reef-utac (P114), Stand v1.3.0 (inkl. WMO-2026-El-Niño-Kontext).
 
 Recovery-Fenster hat sich laut Hughes et al. 2018 (100 Reef-Standorte) auf median 6 Jahre verkürzt, unabhängig bestätigt durch GCRMN & ICRI 2025 (5–6 Jahre). Ehrlichkeits-Check eingebaut: Walker et al. 2023 zeigt, dass Hitzeresistenz bei Korallen nicht uniform ist und mit realen Fitness-Kosten einhergeht — die App behauptet nirgends eine uniforme Bleaching-Reaktion.
 

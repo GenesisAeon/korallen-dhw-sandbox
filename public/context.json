@@ -26,7 +26,7 @@
   ],
   "verified_quantities": [
     { "name": "DHW_ALERT_LEVEL_THRESHOLDS_C_WEEKS", "value": { "1": 4.0, "2": 8.0, "3": 12.0, "4": 16.0, "5": 20.0 }, "source": "NOAA Coral Reef Watch, expanded to 5 levels Dec 2023" },
-    { "name": "GLOBAL_BLEACHING_EVENTS_REEF_AREA_AFFECTED_PCT", "value": { "1998": 21.0, "2010": 37.0, "2014_2017": 68.0, "2023_2025": 83.7 }, "source": "NOAA 4th Global Bleaching Event confirmation" },
+    { "name": "GLOBAL_BLEACHING_EVENTS_REEF_AREA_AFFECTED_PCT", "value": { "1998": 21.0, "2010": 37.0, "2014_2017": 68.0, "2023_2025": 84.4 }, "source": "NOAA/NESDIS, updated figure through September 2025 (event likely ended 2025)" },
     { "name": "HUGHES_2018_MEDIAN_RETURN_INTERVAL_YEARS", "value": 6.0, "unit": "years", "source": "Hughes et al. 2018, 100 sites, 1980-2016" },
     { "name": "GCRMN_2025_RECOVERY_WINDOW_CURRENT_YEARS", "value": [5.0, 6.0], "unit": "years", "source": "GCRMN & ICRI 2025, independent confirmation via cover-loss metric" },
     { "name": "GCRMN_2025_GLOBAL_COVER_DECLINE_PCT", "value": 9.5, "unit": "percent", "source": "GCRMN & ICRI 2025 (30.2% -> 27.3% cover)" },

@@ -27,7 +27,7 @@ const CITES = [
     year: "2024",
     title: "NOAA Confirms 4th Global Coral Bleaching Event",
     href: "https://www.noaa.gov/news-release/noaa-confirms-4th-global-coral-bleaching-event",
-    note: "21 % → 37 % → 68 % → 83,7 % der weltweiten Rifffläche.",
+    note: "21 % → 37 % → 68 % → 84,4 % der weltweiten Rifffläche.",
   },
   {
     authors: "Guillermic, M., et al.",

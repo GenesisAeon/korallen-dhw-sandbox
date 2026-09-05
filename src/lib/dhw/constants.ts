@@ -101,16 +101,16 @@ export const GLOBAL_BLEACHING_EVENTS_REEF_AREA_AFFECTED_PCT: Record<string, numb
   "1998_1st_event": 21.0,
   "2010_2nd_event": 37.0,
   "2014_2017_3rd_event": 68.0,
-  "2023_2025_4th_event": 83.7,
+  "2023_2025_4th_event": 84.4,
 };
-export const NOAA_4GBE_PERIOD = ["2023-01", "2025-04"] as const;
+export const NOAA_4GBE_PERIOD = ["2023-01", "2025-09"] as const;
 export const NOAA_4GBE_NOTE =
   "NOAA and the International Coral Reef Initiative confirmed a " +
   "fourth global coral bleaching event: bleaching-level heat stress " +
-  "affected 83.7% of the world's coral reef area between January " +
-  "2023 and April 2025, across at least 83 countries and " +
+  "affected 84.4% of the world's coral reef area between January " +
+  "2023 and September 2025, across at least 83 countries and " +
   "territories -- a real, escalating series across all four " +
-  "documented global events (21% -> 37% -> 68% -> 83.7%). This is " +
+  "documented global events (21% -> 37% -> 68% -> 84.4%). This is " +
   "the observed area-affected trend, not a claim that bleaching " +
   "equals uniform mortality -- see the genotype-resilience nuance " +
   "module for why.";

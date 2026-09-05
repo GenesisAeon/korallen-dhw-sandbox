@@ -33,7 +33,7 @@ export function Sandbox() {
           </h1>
           <p className="mt-4 max-w-2xl text-base leading-relaxed text-muted sm:text-lg">
             Degree Heating Weeks, 0–20 °C-Wochen. Die betroffene Rifffläche stieg
-            von 21 % auf 83,7 %. Das Recovery-Fenster schrumpfte auf sechs Jahre.
+            von 21 % auf 84,4 %. Das Recovery-Fenster schrumpfte auf sechs Jahre.
           </p>
         </header>
 

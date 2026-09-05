@@ -74,8 +74,8 @@ describe("bleaching_threshold_system", () => {
 describe("historical_escalation", () => {
   it("keeps the four global events 1:1", () => {
     const values = Object.values(GLOBAL_EVENTS.reefAreaAffectedPctByEvent);
-    assert.deepEqual(values, [21.0, 37.0, 68.0, 83.7]);
-    assert.deepEqual(GLOBAL_EVENTS.fourthEventPeriod, ["2023-01", "2025-04"]);
+    assert.deepEqual(values, [21.0, 37.0, 68.0, 84.4]);
+    assert.deepEqual(GLOBAL_EVENTS.fourthEventPeriod, ["2023-01", "2025-09"]);
     assert.ok(GLOBAL_EVENTS.citation);
   });
 

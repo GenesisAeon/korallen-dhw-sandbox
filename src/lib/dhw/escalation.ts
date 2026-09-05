@@ -63,7 +63,7 @@ export const RETURN_INTERVAL_STUDY: ReturnIntervalStudy = {
  * Whether each documented global event affected more reef area than the last.
  *
  * True for the real, observed 1998 -> 2010 -> 2014-2017 -> 2023-2025
- * series (21% -> 37% -> 68% -> 83.7%). This module makes no claim
+ * series (21% -> 37% -> 68% -> 84.4%). This module makes no claim
  * about what happens in a future, undocumented fifth event.
  */
 export function isSeverityMonotonicallyIncreasing(): boolean {
@@ -131,7 +131,7 @@ export const CURRENT_EVENT_WATCH: LiveElNinoWatchContext = {
  * Whether a fifth global coral bleaching event has been confirmed.
  *
  * Always False -- the live 2026-2027 El Nino is a real risk factor
- * to watch, not a confirmed fifth event (the 4th ended April 2025).
+ * to watch, not a confirmed fifth event (the 4th likely ended in 2025).
  */
 export function isAFifthGlobalBleachingEventConfirmed(): boolean {
   return false;
