@@ -1,0 +1,22 @@
+# Korallen-DHW-Sandbox
+
+> NOAA Degree Heating Weeks (DHW) Bleaching-Sandbox: 0–20 °C-Wochen, fünf Alarmstufen (4/8/12/16/20), vier dokumentierte globale Bleaching-Ereignisse (21 % → 37 % → 68 % → 83,7 %). Portiert 1:1 aus coral-reef-utac (P114), Stand v1.2.0 (inkl. WMO-2026-El-Niño-Kontext).
+
+Recovery-Fenster hat sich laut Hughes et al. 2018 (100 Reef-Standorte) auf median 6 Jahre verkürzt, unabhängig bestätigt durch GCRMN & ICRI 2025 (5–6 Jahre). Ehrlichkeits-Check eingebaut: Walker et al. 2023 zeigt, dass Hitzeresistenz bei Korallen nicht uniform ist und mit realen Fitness-Kosten einhergeht — die App behauptet nirgends eine uniforme Bleaching-Reaktion.
+
+## Quellen
+- Hughes et al. (2017), Nature, DOI 10.1038/nature21707
+- Hughes et al. (2018), Science, DOI 10.1126/science.aan8048
+- Guillermic et al. (2021), Science Advances, DOI 10.1126/sciadv.aba9958
+- Walker et al. (2023), Evolutionary Applications, DOI 10.1111/eva.13500
+- GCRMN & ICRI (2026), Status of Coral Reefs of the World: 2025, DOI 10.59387/LFPR6347
+- NOAA (2024), 4th Global Coral Bleaching Event confirmation
+- WMO (2026-09-03), El Niño 2026/27 forecast (current-event context only, not evidence for/against any finding above)
+
+## Maschinenlesbar
+- [context.json](/context.json)
+- Schema: https://github.com/GenesisAeon/apps-hub/blob/main/docs/ai-context-schema.md
+
+## Ökosystem
+- Teil der GenesisAeon Apps-Hub-Reihe: https://github.com/GenesisAeon/apps-hub
+- Zugehöriges Paket im Klimakatalog: https://klimakatalog.vercel.app/p/coral-reef-utac

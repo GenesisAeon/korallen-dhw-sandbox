@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "generated": "2026-09-05",
+  "app": {
+    "id": "korallen-dhw-sandbox",
+    "title": "Korallen-DHW-Sandbox",
+    "kind": "mechanik",
+    "live_url": "https://korallen-dhw-sandbox.vercel.app",
+    "repo_url": "https://github.com/GenesisAeon/korallen-dhw-sandbox",
+    "llms_txt_url": "https://korallen-dhw-sandbox.vercel.app/llms.txt"
+  },
+  "source_package": {
+    "name": "coral-reef-utac",
+    "package_id": 114,
+    "repo_url": "https://github.com/GenesisAeon/coral-reef-utac",
+    "ported_note": "1:1 port of constants.py, bleaching_threshold_system.py, historical_escalation.py, combined_stressor_interaction.py, genotype_resilience_nuance.py at source v1.2.0."
+  },
+  "primary_sources": [
+    { "authors": "NOAA Coral Reef Watch", "year": 2024, "title": "Daily 5km Satellite Coral Bleaching Heat Stress DHW Product v3.1", "doi": null },
+    { "authors": "Hughes, T.P. et al.", "year": 2017, "title": "Global warming and recurrent mass bleaching of corals", "journal": "Nature", "doi": "10.1038/nature21707" },
+    { "authors": "Hughes, T.P. et al.", "year": 2018, "title": "Spatial and temporal patterns of mass bleaching of corals in the Anthropocene", "journal": "Science", "doi": "10.1126/science.aan8048" },
+    { "authors": "Guillermic, M. et al.", "year": 2021, "title": "Thermal stress reduces pocilloporid coral resilience to ocean acidification", "journal": "Science Advances", "doi": "10.1126/sciadv.aba9958" },
+    { "authors": "Walker, N.S., Nestor, V., Golbuu, Y., Palumbi, S.R.", "year": 2023, "title": "Coral bleaching resistance variation is linked to differential mortality and skeletal growth during recovery", "journal": "Evolutionary Applications", "doi": "10.1111/eva.13500" },
+    { "authors": "GCRMN & ICRI", "year": 2026, "title": "Status of Coral Reefs of the World: 2025", "doi": "10.59387/LFPR6347" },
+    { "authors": "WMO", "year": 2026, "title": "El Nino set to become very strong, raising risks of extreme weather into 2027", "doi": null, "note": "current-event context, not evidence for/against any finding in this package" }
+  ],
+  "verified_quantities": [
+    { "name": "DHW_ALERT_LEVEL_THRESHOLDS_C_WEEKS", "value": { "1": 4.0, "2": 8.0, "3": 12.0, "4": 16.0, "5": 20.0 }, "source": "NOAA Coral Reef Watch, expanded to 5 levels Dec 2023" },
+    { "name": "GLOBAL_BLEACHING_EVENTS_REEF_AREA_AFFECTED_PCT", "value": { "1998": 21.0, "2010": 37.0, "2014_2017": 68.0, "2023_2025": 83.7 }, "source": "NOAA 4th Global Bleaching Event confirmation" },
+    { "name": "HUGHES_2018_MEDIAN_RETURN_INTERVAL_YEARS", "value": 6.0, "unit": "years", "source": "Hughes et al. 2018, 100 sites, 1980-2016" },
+    { "name": "GCRMN_2025_RECOVERY_WINDOW_CURRENT_YEARS", "value": [5.0, 6.0], "unit": "years", "source": "GCRMN & ICRI 2025, independent confirmation via cover-loss metric" },
+    { "name": "GCRMN_2025_GLOBAL_COVER_DECLINE_PCT", "value": 9.5, "unit": "percent", "source": "GCRMN & ICRI 2025 (30.2% -> 27.3% cover)" },
+    { "name": "THERMAL_ACIDIFICATION_STRESS_TEMP_C", "value": 31.0, "unit": "C", "source": "Guillermic et al. 2021" },
+    { "name": "WMO_2026_NINO34_ANOMALY_C_RANGE", "value": [2.2, 2.6], "unit": "C", "source": "WMO 2026-09-03 press release" }
+  ],
+  "framework_overlay": { "used": false, "terms": [] },
+  "honesty_checks": [
+    { "name": "isBleachingResponseUniformAcrossGenotypes", "always_returns": false, "meaning": "Walker et al. 2023: heat resistance varies by genotype and carries a fitness cost." },
+    { "name": "doesHeatResistanceComeWithoutACost", "always_returns": false, "meaning": "Walker et al. 2023: resistant genotypes show reduced growth during recovery." },
+    { "name": "resilienceDependsOnResistanceAlone", "always_returns": false, "meaning": "Resilience = resistance AND recovery capacity, not resistance alone." },
+    { "name": "isAFifthGlobalBleachingEventConfirmed", "always_returns": false, "meaning": "Guards against presenting the live WMO 2026 El Nino context as evidence of a new global bleaching event." }
+  ],
+  "cross_app_relations": [],
+  "disclaimer": "Alle Schwellenwerte und Ereignisdaten 1:1 aus coral-reef-utac. Kein UTAC/CREP/AFET, kein erfundenes Gamma."
+}
