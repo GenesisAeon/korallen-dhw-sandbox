@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.0.0",
+  "schema_version": "1.1.0",
   "generated": "2026-09-05",
   "app": {
     "id": "korallen-dhw-sandbox",
@@ -33,6 +33,22 @@
     { "name": "THERMAL_ACIDIFICATION_STRESS_TEMP_C", "value": 31.0, "unit": "C", "source": "Guillermic et al. 2021" },
     { "name": "WMO_2026_NINO34_ANOMALY_C_RANGE", "value": [2.2, 2.6], "unit": "C", "source": "WMO 2026-09-03 press release" }
   ],
+  "tipping": {
+    "kind": "alarm_stage",
+    "value": { "1": 4.0, "2": 8.0, "3": 12.0, "4": 16.0, "5": 20.0 },
+    "unit": "DHW (degree heating weeks)",
+    "derived_from": "NOAA Coral Reef Watch official 5-level alert scale; level 2 (8 DHW) is where mortality risk, not just bleaching risk, begins",
+    "defined": true
+  },
+  "regen": {
+    "kind": "recovery_window",
+    "value": 6.0,
+    "unit": "years",
+    "derived_from": "Hughes et al. 2018 median return interval (100 sites), independently confirmed by GCRMN & ICRI 2025's 5-6 year recovery window",
+    "defined": true
+  },
+  "comparable": false,
+  "formula_ref": "coral-reef-utac bleaching_threshold_system.py: NOAA CRW Degree Heating Week accumulation, no ODE",
   "framework_overlay": { "used": false, "terms": [] },
   "honesty_checks": [
     { "name": "isBleachingResponseUniformAcrossGenotypes", "always_returns": false, "meaning": "Walker et al. 2023: heat resistance varies by genotype and carries a fitness cost." },

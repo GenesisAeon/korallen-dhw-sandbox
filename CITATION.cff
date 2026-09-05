@@ -9,12 +9,12 @@ authors:
 repository-code: https://github.com/GenesisAeon/korallen-dhw-sandbox
 url: https://github.com/GenesisAeon/korallen-dhw-sandbox
 license: MIT
-version: "0.2.0"
+version: "0.3.0"
 abstract: >
   Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching
   sandbox using published constants from coral-reef-utac (P114): DHW
   0–20 °C-weeks with five alert levels, four global bleaching events
-  (21% → 37% → 68% → 83.7%), Hughes 2018 6-year return interval, GCRMN
+  (21% → 37% → 68% → 84.4%), Hughes 2018 6-year return interval, GCRMN
   2025 5–6 year recovery window, Guillermic 2021 heat/acidification
   synergy, Walker 2023 genotype honesty check. No UTAC/CREP/AFET bridge
   and no invented Gamma value.

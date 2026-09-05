@@ -1,6 +1,6 @@
 {
   "title": "Korallen-DHW-Sandbox — interactive NOAA Degree Heating Week bleaching diagnostic (P114)",
-  "description": "<p>Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching sandbox, ported 1:1 from coral-reef-utac (GenesisAeon P114, v1.2.0): DHW 0-20 C-weeks with five official alert levels, the real escalating series of four documented global bleaching events (21% -&gt; 37% -&gt; 68% -&gt; 83.7%), Hughes et al. 2018's 6-year return interval independently confirmed by GCRMN &amp; ICRI 2025's 5-6 year recovery window, Guillermic et al. 2021's heat-disables-acidification-coping synergy, and Walker et al. 2023's genotype-level honesty check (bleaching resistance is not uniform and carries a real fitness cost). Also includes live WMO monitoring of the current (2026) exceptionally strong El Nino as watch context, explicitly not a claim of a confirmed fifth global bleaching event. No UTAC/CREP/AFET bridge and no invented Gamma value. Part of the <strong>GenesisAeon</strong> interactive-sandbox series.</p>",
+  "description": "<p>Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching sandbox, ported 1:1 from coral-reef-utac (GenesisAeon P114, v1.2.0): DHW 0-20 C-weeks with five official alert levels, the real escalating series of four documented global bleaching events (21% -&gt; 37% -&gt; 68% -&gt; 84.4%), Hughes et al. 2018's 6-year return interval independently confirmed by GCRMN &amp; ICRI 2025's 5-6 year recovery window, Guillermic et al. 2021's heat-disables-acidification-coping synergy, and Walker et al. 2023's genotype-level honesty check (bleaching resistance is not uniform and carries a real fitness cost). Also includes live WMO monitoring of the current (2026) exceptionally strong El Nino as watch context, explicitly not a claim of a confirmed fifth global bleaching event. No UTAC/CREP/AFET bridge and no invented Gamma value. Part of the <strong>GenesisAeon</strong> interactive-sandbox series.</p>",
   "creators": [
     {
       "name": "Römer, Johann",
@@ -10,7 +10,7 @@
   "license": "MIT",
   "upload_type": "software",
   "access_right": "open",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "keywords": [
     "GenesisAeon",
     "P114",
