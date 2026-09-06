@@ -9,7 +9,7 @@ authors:
 repository-code: https://github.com/GenesisAeon/korallen-dhw-sandbox
 url: https://github.com/GenesisAeon/korallen-dhw-sandbox
 license: MIT
-version: "0.3.0"
+version: "0.3.1"
 abstract: >
   Interactive NOAA Coral Reef Watch Degree Heating Week (DHW) bleaching
   sandbox using published constants from coral-reef-utac (P114): DHW

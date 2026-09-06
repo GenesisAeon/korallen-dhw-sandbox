@@ -38,14 +38,16 @@
     "value": { "1": 4.0, "2": 8.0, "3": 12.0, "4": 16.0, "5": 20.0 },
     "unit": "DHW (degree heating weeks)",
     "derived_from": "NOAA Coral Reef Watch official 5-level alert scale; level 2 (8 DHW) is where mortality risk, not just bleaching risk, begins",
-    "defined": true
+    "defined": true,
+    "origin": "literature"
   },
   "regen": {
     "kind": "recovery_window",
     "value": 6.0,
     "unit": "years",
     "derived_from": "Hughes et al. 2018 median return interval (100 sites), independently confirmed by GCRMN & ICRI 2025's 5-6 year recovery window",
-    "defined": true
+    "defined": true,
+    "origin": "literature"
   },
   "comparable": false,
   "formula_ref": "coral-reef-utac bleaching_threshold_system.py: NOAA CRW Degree Heating Week accumulation, no ODE",
