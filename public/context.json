@@ -1,6 +1,6 @@
 {
-  "schema_version": "1.1.0",
-  "generated": "2026-09-05",
+  "schema_version": "1.2.0",
+  "generated": "2026-09-06",
   "app": {
     "id": "korallen-dhw-sandbox",
     "title": "Korallen-DHW-Sandbox",
@@ -48,6 +48,14 @@
     "derived_from": "Hughes et al. 2018 median return interval (100 sites), independently confirmed by GCRMN & ICRI 2025's 5-6 year recovery window",
     "defined": true,
     "origin": "literature"
+  },
+  "entropy_bg": {
+    "kind": "undefined",
+    "value": null,
+    "unit": null,
+    "derived_from": "The DHW heat-accumulation metric already occupies the tipping slot above; no separate background energetic quantity is defined -- left undefined to avoid double-counting the same number.",
+    "defined": false,
+    "origin": "undefined"
   },
   "comparable": false,
   "formula_ref": "coral-reef-utac bleaching_threshold_system.py: NOAA CRW Degree Heating Week accumulation, no ODE",
